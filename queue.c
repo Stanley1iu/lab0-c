@@ -56,6 +56,7 @@ int q_size(struct list_head *head)
     list_for_each (li, head)
         len++;
     return len;
+    // try to add annotation
 }
 
 /* Delete the middle node in queue */
